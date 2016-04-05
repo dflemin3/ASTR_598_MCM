@@ -1,3 +1,4 @@
 *.pyc
 *.DS_Store
+*latex_README
 *.ipynb_checkpoints
