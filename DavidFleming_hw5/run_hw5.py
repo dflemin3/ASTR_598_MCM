@@ -84,7 +84,7 @@ def metropolis(x_int, P, N=10000, delta=1):
             # Get random value between 0 and 1
             r = np.random.uniform(low=0.0, high=1.0)
             
-            if(y_new/y < r): # Accept x_new
+            if(y_new/y > r): # Accept x_new
                 x = x_new
                 y = y_new
             # end if
